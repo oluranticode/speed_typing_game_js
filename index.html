@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Game</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/font-awesome.css" rel="stylesheet">
+   <!--pop-up-box-->
+   <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+   <!--//pop-up-box-->
+   <!-- price range -->
+   <link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+   <!-- fonts -->
+
+</head>
+<body>
+    <div class="container">
+        <header class="text-center">
+            <h1>Damilotun Game</h1>
+        </header>
+
+
+    <form id="regForm" class="">
+      <div class="text">
+                      <p>Type the given word within
+                          <span id="seconds" style="color: red; font-weight: 500;"> 5 </span> Seconds:</p>
+                          <h5 id="textLevel" style="text-align: center;"></h5>
+
+                          <!-- Change Level -->
+                <select id="levelChange" style="background-color: #ffffff;">
+                  <option id="easy" value="easy">Easy</option>
+                  <option id="medium" value="medium">Medium</option>
+                  <option id="hard" value="hard">Hard</option>
+              </select>
+            </div>
+                          <h2 id="current-word" style="text-align: center;"></h2>
+
+                      <input type="text" class="form-control col-md-6 max-auto"
+                       placeholder="Start" id="word-input" autofocus>
+                       <br />  <br />
+                      <h4 class="message" style="text-align: center;" id="message"></h4>
+                  </form>
+               
+
+                 <!-- Time and Roll Score -->
+                    
+                  <div class="" style="text-align: center;">
+                    <h3>Time Left: <span id="time">0</span></h3>
+                  </div>
+
+                  <div class="" style="text-align: center;">
+                    <h3>Score: <span id="score" >0</span></h3>
+                  </div>
+
+                 
+                    <div class="text2">   
+                      <h4>Instruction</h4>
+                    <p>Type each word in the given amount of seconds of amounts to score. <br>
+                      To play agin, just type the cuurent word. your score will reset
+                    </p>
+                  </div>
+                </div>
+                
+
+
+              <script src="./main.js"></script>
+</body>
+</html>
